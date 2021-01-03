@@ -12,12 +12,13 @@ Install requirements: `pip3 install -r requirements.txt`
 
 
 ## Run the script
-open find_word_audio.py and edit these lines then save it:
+Enter the path of the audio file, the word you want to search for and the language of your audio file as a command arguments, such as the following example:
 
-* `path = "Your-Audio_file.wav"` 
-* `word_search = "You_word_to_search"`
+`python3 find_word_audio.py file-test.wav "word" "en-US"`
 
-then run it: `python3 find_word_audio.py`
+If your audio file is Farsi, language becomes: "fa-IR"
+If your audio file is Turkish, language becomes: "tr-TR"
+
 
 
 
